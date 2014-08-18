@@ -9,6 +9,10 @@ install -s mvn:com.fasterxml.jackson.core/jackson-annotations/2.4.0
 install -s mvn:com.fasterxml.jackson.core/jackson-databind/2.4.0  
 install -s mvn:com.fasterxml.jackson.jaxrs/jackson-jaxrs-base/2.4.0  
 install -s mvn:com.fasterxml.jackson.jaxrs/jackson-jaxrs-json-provider/2.4.0  
+
+## Deploy
+
+Copy built jar files in karaf deploy directory
 	
 ## From command line
  - Create new person:   	
